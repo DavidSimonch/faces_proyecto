@@ -5,7 +5,7 @@ import requests
 
 # Endpoint de tu modelo
 SERVER_URL = "https://tensorflow-serving-v3.onrender.com/v1/models/reconocimiento-rostro:predict"
-IMAGE_PATH = "/Users/simonchi/Documents/Proyecto_IA/data/jessi/IMG_4673.JPG"  # Reemplaza con la ruta a tu imagen
+IMAGE_PATH = "data/jessi/IMG_4673.JPG"  # Reemplaza con la ruta a tu imagen
 
 def main():
     # Cargar imagen en escala de grises
